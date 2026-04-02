@@ -1,4 +1,14 @@
-export const projects = [
+interface Project {
+  client: string;
+  role: string;
+  title: string;
+  year: string;
+  description: string;
+  caseStudyUrl?: string;
+  stack: readonly string[];
+}
+
+export const projects: Project[] = [
   {
     client: "Lite Shipping",
     role: "Tech Lead & Functional Consultant",
@@ -6,6 +16,7 @@ export const projects = [
     year: "2023–2024",
     description:
       "End-to-end ferry booking system covering passenger and freight operations. Designed the data model, led the development team, built the NetSuite integration layer (SFTP/CSV batch uploads + SuiteQL), implemented booking confirmation emails via React Email, and coordinated UAT with the client.",
+    caseStudyUrl: "https://softype.com/aquarius-sots",
     stack: [
       "Next.js",
       "TypeScript",
@@ -51,7 +62,7 @@ export const projects = [
       "GitHub Actions",
     ] as readonly string[],
   },
-] as const;
+];
 
 export const skillCategories = [
   {

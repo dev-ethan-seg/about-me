@@ -47,6 +47,17 @@ export function Projects() {
                   </li>
                 ))}
               </ul>
+
+              {project.caseStudyUrl && (
+                <a
+                  href={project.caseStudyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block font-['DM_Mono',monospace] text-[11px] tracking-[0.12em] uppercase text-[#4a5e1f] border-b border-[#4a5e1f] pb-1 hover:text-[#6b8430] hover:border-[#6b8430] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#4a5e1f] focus-visible:ring-offset-2"
+                >
+                  Read the case study ↗
+                </a>
+              )}
             </article>
           ))}
         </div>
