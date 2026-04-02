@@ -1,7 +1,7 @@
 export const projects = [
   {
-    client: "Roble Shipping Lines / Lite Shipping (Sea Ninja)",
-    role: "Tech Lead & Principal Architect",
+    client: "Lite Shipping",
+    role: "Tech Lead & Functional Consultant",
     title: "Aquarius Ferry Booking System",
     year: "2023–2024",
     description:
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     client: "Internal (Softype / Perago)",
-    role: "Architect & Lead Developer",
+    role: "Developer",
     title: "Scout: AI-Powered NetSuite Health Audit",
     year: "2024",
     description:
